@@ -16,12 +16,7 @@ let data=[
     }
 ]
 
-let cardContainer2=document.getElementById("cardContainer")
 
-  cardContainer2.style.display="flex"
-  cardContainer2.style.justifyContent="center"
-  cardContainer2.style.margin="40px"
-  cardContainer2.style.gap="40px"
   
   let cardContainer2=document.getElementById("cardContainer")
 
