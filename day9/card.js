@@ -23,6 +23,13 @@ let cardContainer2=document.getElementById("cardContainer")
   cardContainer2.style.margin="40px"
   cardContainer2.style.gap="40px"
   
+  let cardContainer2=document.getElementById("cardContainer")
+
+  cardContainer2.style.display="flex"
+  cardContainer2.style.justifyContent="center"
+  cardContainer2.style.margin="40px"
+  cardContainer2.style.gap="40px"
+  
   for(i=0;i<data.length;i++){
     const colors=["lightblue","lightcoral","pink"]
          let card=document.createElement("div")
@@ -39,10 +46,6 @@ let cardContainer2=document.getElementById("cardContainer")
         
               a[j].style.fontWeight="bold"
       }
-//    console.log(a)
-        // a[0].style.backgroundColor="red"
-        // a[1].style.backgroundColor="yellow"
-//    let someText = card.querySelector("p")
-//    someText.style.fontWeight="bold"
+
   cardContainer2.appendChild(card)
 }
