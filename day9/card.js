@@ -34,7 +34,15 @@ let cardContainer2=document.getElementById("cardContainer")
    card.style.width="350px";
    card.style.border="2px solid black"
    card.style.backgroundColor=colors[i]
-   let someText = card.querySelector("p")
-   someText.style.fontWeight="bold"
+   let a=card.querySelectorAll("p");
+      for(j=0;j<a.length;j++){
+        
+              a[j].style.fontWeight="bold"
+      }
+//    console.log(a)
+        // a[0].style.backgroundColor="red"
+        // a[1].style.backgroundColor="yellow"
+//    let someText = card.querySelector("p")
+//    someText.style.fontWeight="bold"
   cardContainer2.appendChild(card)
 }
